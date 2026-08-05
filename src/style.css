@@ -3,7 +3,7 @@
   --blue-color: #00acdc;
 }
 
-body{
+body {
   margin: 0;
 }
 
@@ -78,4 +78,3 @@ body{
   border-radius: 2px;
   background-color: var(--blue-color);
 }
-
