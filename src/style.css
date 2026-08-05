@@ -3,6 +3,10 @@
   --blue-color: #00acdc;
 }
 
+body{
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -32,8 +36,8 @@
   list-style: none;
 }
 
-.nav__item {
-  margin-left: 20px;
+.nav__item:not(:last-child) {
+ margin-right: 20px;
 }
 
 .nav__item:first-child {
